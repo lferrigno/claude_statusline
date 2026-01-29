@@ -31,7 +31,15 @@ When you have multiple Claude Code terminals open, it's hard to tell which is wh
 
 ## Installation
 
-### Option 1: Quick install (copy-paste)
+### Option 1: Clone and install
+
+```bash
+git clone https://github.com/lferrigno/claude_statusline.git
+cd claude_statusline
+./install.sh
+```
+
+### Option 2: One-liner (curl)
 
 ```bash
 # Download the script
@@ -50,7 +58,7 @@ else
 fi
 ```
 
-### Option 2: Manual install
+### Option 3: Manual install
 
 1. Copy `statusline.sh` to `~/.claude/`:
 
